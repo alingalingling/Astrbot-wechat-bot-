@@ -3,6 +3,7 @@
 # WeChat Bot Bridge — QQ & WeChat 双端互通
 
 让你的 **AstrBot QQ 机器人** 与 **微信小号** 互通。同一个 LLM + 同一套记忆，用户在微信上发消息 = 跟 QQ 机器人聊天，反之亦然。
+
 若在使用过程中有任何问题，可加qq群110345753进行反馈，但鉴于作者为高三学生，若有不及时之处，还请见谅
 
 ## 特性
@@ -218,7 +219,8 @@ conn.close()
 - Embedding 模型：`nomic-embed-text`（Ollama 提供）
 - 记忆数据库：SQLite（conversations.db）+ FAISS 向量索引
 
-注：本项目默认建立在已经配置好astrbot并下载插件living memory的情况下，旨在做到vx小号也可接入bot并且记忆互通，实现所有平台信息同步，若尚未完成astrbot配置，请先前往该项目——https://github.com/AstrBotDevs/AstrBot，完成初始配置
+注：本项目默认建立在已经配置好astrbot并下载插件living memory的情况下，旨在做到vx小号也可接入bot并且记忆互通，实现所有平台信息同步，若尚未完成astrbot配置，请先前往该项目——https://github.com/AstrBotDevs/AstrBot 
+，完成初始配置
 
 
 ## 许可证
