@@ -1,5 +1,7 @@
 # WeChat Bot Bridge — QQ & WeChat 双端互通
 
+[![Download ZIP](https://img.shields.io/badge/Download-%E4%B8%8B%E8%BD%BD%E6%BA%90%E7%A0%81-brightgreen?style=for-the-badge&logo=github)](https://github.com/alingalingling/Astrbot-wechat-bot-/archive/refs/heads/master.zip)
+
 让你的 **AstrBot QQ 机器人** 与 **微信小号** 互通。同一个 LLM + 同一套记忆，用户在微信上发消息 = 跟 QQ 机器人聊天，反之亦然。
 
 若在使用过程中有任何问题，可加qq群110345753进行反馈，但鉴于作者为高三学生，若有不及时之处，还请见谅
