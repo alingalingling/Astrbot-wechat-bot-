@@ -54,19 +54,24 @@ Docker / 服务器（同一局域网或本机）
 
 ### 2. 安装依赖
 
+**Step 1 — 先装 git（Windows 需要）**
 ```bash
-pip install wxauto>=3.9 requests>=2.28 pymem
+winget install Git.Git
+```
+> 装完**关掉终端重新打开**，否则下一步会找不到 git。
+
+**Step 2 — 安装 wxauto**
+> wxauto **不在 PyPI 上**，必须从 GitHub 安装。
+
+```bash
+pip install git+https://github.com/cluic/wxauto.git
 ```
 
-如果 pip 安装慢，可以临时换源：
+如果 GitHub 直连慢，可以用镜像加速：
 ```bash
-pip install wxauto requests pymem -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install git+https://ghfast.top/https://github.com/cluic/wxauto.git
 ```
 
-> **wxauto 安装说明**：wxauto v3.9+ 可能需要从 GitHub 直接安装：
-> ```bash
-> pip install git+https://github.com/cluic/wxauto.git
-> ```
 
 ### 3. 配置 AstrBot
 
